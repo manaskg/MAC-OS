@@ -14,7 +14,7 @@ const Note = ({ windowName, setWindowsState }) => {
   }, []);
 
   return (
-    <MacWindow windowName={windowName} setWindowsState={setWindowsState}>
+    <MacWindow width="60vw" height="60vh" windowName={windowName} setWindowsState={setWindowsState}>
       <div className="note-window">
         {markdown ? (
           <SyntaxHighlighter language="markdown" style={atelierDuneDark}>

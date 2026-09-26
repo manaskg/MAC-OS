@@ -3,7 +3,7 @@ import "./spotify.scss";
 
 const Spotify = ({ windowName, setWindowsState }) => {
   return (
-    <MacWindow windowName={windowName} setWindowsState={setWindowsState}>
+    <MacWindow width="40vw" height="60vh" windowName={windowName} setWindowsState={setWindowsState}>
       <div className="spotify-window">
         <iframe
           data-testid="embed-iframe"

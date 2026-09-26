@@ -14,7 +14,7 @@ const MacWindow = ({
         width: width,
         height: height,
         x: 300,
-        y: 200,
+        y: 150,
       }}
     >
       <div className="window">

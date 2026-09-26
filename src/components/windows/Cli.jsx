@@ -217,20 +217,7 @@ Use:
 ║       Welcome to Manas Kumar Ghosh's CLI           ║
 ║                                                    ║
 ╚════════════════════════════════════════════════════╝
-
-👋 Hello! I'm Manas — a CSE student & developer.
-
 Welcome to my interactive portfolio terminal.
-
-You can explore my:
-  • Background
-  • Education
-  • Technical skills
-  • IIT Bombay internship
-  • Projects
-  • Achievements
-  • Contact information
-
 Try these commands:
 
   about        → Learn about me
@@ -249,7 +236,7 @@ Happy exploring! 🚀
 `;
 
   return (
-    <MacWindow windowName={windowName} setWindowsState={setWindowsState}>
+    <MacWindow width="60vw" height="60vh" windowName={windowName} setWindowsState={setWindowsState}>
       <div className="cli-window">
         <Terminal
           commands={commands}
