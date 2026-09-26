@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./app.scss";
+import Nav from "./components/Nav";
 import Dock from "./components/Dock";
 import Cli from "./components/windows/Cli";
 import Github from "./components/windows/Github";
@@ -18,6 +19,7 @@ function App() {
 
   return (
     <main>
+      <Nav />
       <Dock windowsState={windowsState} setWindowsState={setWindowsState} />
       {windowsState.github && (
         <Github windowName="github" setWindowsState={setWindowsState} />
