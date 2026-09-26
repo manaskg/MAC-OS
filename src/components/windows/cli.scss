@@ -1,0 +1,66 @@
+.cli-window {
+  height: 100%;
+  overflow: auto;
+  padding-bottom: 3rem;
+  background-color: #111111;
+
+  // React Console Emulator
+  div[name="react-console-emulator"] {
+    height: 100%;
+    background-color: transparent !important;
+
+    // Main terminal text
+    color: #e6e6e6 !important;
+
+    // Terminal prompt
+    .react-console-emulator__input {
+      color: #ffffff !important;
+    }
+
+    // Input cursor / command area
+    input {
+      color: #ffffff !important;
+      caret-color: #00ff88;
+    }
+
+    // Command output
+    .react-console-emulator__content {
+      color: #d7d7d7;
+    }
+
+    // Welcome message / output
+    .react-console-emulator__content,
+    .react-console-emulator__input {
+      font-family:
+        "Fira Code",
+        "Cascadia Code",
+        "JetBrains Mono",
+        Consolas,
+        monospace;
+    }
+  }
+}
+
+// Scrollbar
+.cli-window::-webkit-scrollbar {
+  width: 8px;
+}
+
+.cli-window::-webkit-scrollbar-track {
+  background: #111111;
+}
+
+.cli-window::-webkit-scrollbar-thumb {
+  background: #333333;
+  border-radius: 10px;
+}
+
+.cli-window::-webkit-scrollbar-thumb:hover {
+  background: #555555;
+}
+
+// Selection
+.cli-window ::selection {
+  background: #00ff88;
+  color: #111111;
+}
