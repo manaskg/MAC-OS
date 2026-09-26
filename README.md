@@ -1,16 +1,57 @@
-# React + Vite
+# 🍎 macOS Web Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive, macOS-inspired personal web portfolio built with **React** and **Vite**. It features a realistic desktop environment with a glassmorphism top navigation bar, animated dock, and draggable/resizable window applications.
 
-Currently, two official plugins are available:
+🌐 **Live Demo:** [manaskumarghosh.netlify.app](https://manaskumarghosh.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🖥️ **macOS Desktop UI** – Authentic top menu bar with live time, status icons, and an interactive dock.
+- 🪟 **Draggable & Resizable Windows** – Smooth multi-window management powered by `react-rnd`.
+- 💻 **Interactive CLI Terminal** – Custom command-line emulator with built-in commands.
+- 📝 **Markdown Notes** – Built-in note viewer with markdown rendering and code syntax highlighting.
+- 📄 **PDF Resume Viewer** – In-app PDF viewer for direct resume access.
+- 🎵 **Spotify Widget** – Embedded music player with macOS window styling.
+- 🐙 **GitHub Showcase** – Pinned repository explorer with live links.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- **Core:** React 19, Vite, Sass (SCSS)
+- **Components & Tools:** `react-rnd`, `react-console-emulator`, `react-markdown`, `react-syntax-highlighter`
+- **Hosting:** Netlify
+
+---
+
+## 🚀 Getting Started
+
+### Installation & Local Setup
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/manaskg/MAC-OS.git
+cd MAC-OS
+
+# 2. Install dependencies
+npm install
+
+# 3. Start local development server
+npm run dev
+```
+
+### Production Build
+
+```bash
+npm run build
+```
+
+---
+
+## 👤 Author
+
+**Manas Kumar Ghosh**
+- **Website:** [manaskumarghosh.netlify.app](https://manaskumarghosh.netlify.app/)
+- **GitHub:** [@manaskg](https://github.com/manaskg)
