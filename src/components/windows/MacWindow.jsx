@@ -5,6 +5,8 @@ const MacWindow = ({
   children,
   width = "30vw",
   height = "50vh",
+  x = 300,
+  y = 150,
   windowName,
   setWindowsState,
 }) => {
@@ -13,8 +15,8 @@ const MacWindow = ({
       default={{
         width: width,
         height: height,
-        x: 300,
-        y: 150,
+        x: x,
+        y: y,
       }}
     >
       <div className="window">
