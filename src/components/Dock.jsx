@@ -30,7 +30,7 @@ const Dock = ({ setWindowsState }) => {
       </div>
       <div
         onClick={() => {
-          window.open("https://calendar.google.com/", "_blank");
+          setWindowsState((state) => ({ ...state, calendar: true }));
         }}
         className="icon calender"
       >

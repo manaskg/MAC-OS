@@ -7,6 +7,7 @@ import Github from "./components/windows/Github";
 import Note from "./components/windows/Note";
 import Resume from "./components/windows/Resume";
 import Spotify from "./components/windows/Sportify";
+import Calendar from "./components/windows/Calendar";
 
 function App() {
   const [windowsState, setWindowsState] = useState({
@@ -15,6 +16,7 @@ function App() {
     resume: false,
     spotify: false,
     cli: false,
+    calendar: false,
   });
 
   return (
@@ -35,6 +37,9 @@ function App() {
       )}
       {windowsState.cli && (
         <Cli windowName="cli" setWindowsState={setWindowsState} />
+      )}
+      {windowsState.calendar && (
+        <Calendar windowName="calendar" setWindowsState={setWindowsState} />
       )}
     </main>
   );

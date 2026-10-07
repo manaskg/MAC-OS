@@ -9,6 +9,7 @@ const MacWindow = ({
   y = 150,
   windowName,
   setWindowsState,
+  title,
 }) => {
   return (
     <Rnd
@@ -33,7 +34,7 @@ const MacWindow = ({
           </div>
 
           <div className="title">
-            <p>manaskumarghosh - zsh</p>
+            <p>{title || "manaskumarghosh - zsh"}</p>
           </div>
         </div>
         <div className="main-content">{children}</div>
